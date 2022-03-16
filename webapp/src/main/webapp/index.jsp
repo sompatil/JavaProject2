@@ -28,40 +28,40 @@ body {font-family: "Lato", sans-serif;}
   text-align: center;
 }
 
-#London {background-color:red;}
-#Paris {background-color:green;}
-#Tokyo {background-color:blue;}
-#Oslo {background-color:orange;}
+#Facebook {background-color:red;}
+#Twitter {background-color:green;}
+#Whatsapp {background-color:blue;}
+#Imo {background-color:orange;}
 </style>
 </head>
 <body>
 
 <p>Click on the buttons inside the tabbed menu:</p>
 
-<div id="London" class="tabcontent">
-  <h1>London</h1>
-  <p>London is the capital city of England.</p>
+<div id="Facebook" class="tabcontent">
+  <h1>Facebook</h1>
+  <p>Welcome to Facebook.</p>
 </div>
 
-<div id="Paris" class="tabcontent">
-  <h1>Paris</h1>
-  <p>Paris is the capital of France.</p> 
+<div id="Twitter" class="tabcontent">
+  <h1>Twitter</h1>
+  <p>Welcome to Twitter.</p> 
 </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h1>Tokyo</h1>
-  <p>Tokyo is the capital of Japan.</p>
+<div id="Whatsapp" class="tabcontent">
+  <h1>Whatsapp</h1>
+  <p>Welcome to Whatsapp.</p>
 </div>
 
-<div id="Oslo" class="tabcontent">
-  <h1>Oslo</h1>
-  <p>Oslo is the capital of Norway.</p>
+<div id="Imo" class="tabcontent">
+  <h1>Imo</h1>
+  <p>Welcome to Imo.</p>
 </div>
 
-<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
-<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
-<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
-<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+<button class="tablink" onclick="openCity('Facebook', this, 'red')" id="defaultOpen">Facebook</button>
+<button class="tablink" onclick="openCity('Paris', this, 'green')">Twitter</button>
+<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Whatsapp</button>
+<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Imo</button>
 
 <script>
 function openCity(cityName,elmnt,color) {

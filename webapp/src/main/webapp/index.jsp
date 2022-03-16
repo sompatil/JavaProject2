@@ -59,9 +59,9 @@ body {font-family: "Lato", sans-serif;}
 </div>
 
 <button class="tablink" onclick="openCity('Facebook', this, 'red')" id="defaultOpen">Facebook</button>
-<button class="tablink" onclick="openCity('Paris', this, 'green')">Twitter</button>
-<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Whatsapp</button>
-<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Imo</button>
+<button class="tablink" onclick="openCity('Twitter', this, 'green')">Twitter</button>
+<button class="tablink" onclick="openCity('Whatsapp', this, 'blue')">Whatsapp</button>
+<button class="tablink" onclick="openCity('Imo', this, 'orange')">Imo</button>
 
 <script>
 function openCity(cityName,elmnt,color) {
